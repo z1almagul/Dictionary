@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Min Norsk ordbok</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+        <!-- icons font 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+        -->
+    </head>
+    <body id="body">
+        <div id="word-box">
+            <p id="word"></p>
+            <p id="translation"></p>
+            <p><span id="definition"></span></p>
+            <p><span id="example"></span></p>
+            <div class="buttons">
+                <button id="new-quote" class="button">New word</button>
+                <a id="tweet-quote" class="button" href="https://twitter.com/intent/tweet" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a id="share-quote" class="button" href="https://wa.me/?text" target="_blank">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <!-- getting the library for JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

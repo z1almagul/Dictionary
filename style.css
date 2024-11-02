@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+html{
+    font-family: Lucida;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+#word-box{
+    background-color: white;
+    position: relative;
+    width: 450px;
+    display: table;
+    padding: 40px;
+    border-radius: 0.3rem;
+}
+
+#word{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 450px;
+}
+
+#definition{
+    font-size: 1.3rem;
+    width: 450px;
+}
+
+#example{
+    font-size: 1.3rem;
+    width: 450px;
+}
+
+.button{
+    border-radius: 0.3rem;
+    border: none;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 1rem;
+    padding: 8px 18px 6px 18px;
+    opacity: 1;
+    float: right;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 400px){
+  #quote-box, .buttons, #author, #text{
+    width: 250px;
+  }
+}
