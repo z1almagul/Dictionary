@@ -125,7 +125,17 @@ const words = [
      translation: "nauseous",
      definition:"ubehag i magen",
      example:"Datteren min er kvalm og kaster opp.",
-     type:2}
+     type:2},
+    {word: "ei plage",
+     translation: "a bother",
+     definition:"",
+     example:".",
+     type:0},
+    {word: "ei stund",
+     translation: "a while",
+     definition:"",
+     example:".",
+     type:0}
 ]
 
 var currentWord = '';
