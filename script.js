@@ -110,7 +110,22 @@ const words = [
      translation: "an influence",
      definition:"innvirkning",
      example:"Elin har positiv innflytelse på sjefen.",
-     type:0}
+     type:0},
+    {word: "en egenandel",
+     translation: "a deductible",
+     definition:"et beløp man må betale, resten er dekket",
+     example:"Du må betale egenandelen.",
+     type:0},
+    {word: "en smerte",
+     translation: "a pain",
+     definition:"fysisk ubehag",
+     example:"Han har smerter i magen.",
+     type:0},
+    {word: "kvalm",
+     translation: "nauseous",
+     definition:"ubehag i magen",
+     example:"Datteren min er kvalm og kaster opp.",
+     type:2}
 ]
 
 var currentWord = '';
